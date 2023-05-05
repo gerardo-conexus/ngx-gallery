@@ -27,7 +27,7 @@
     background-position: center;
     background-repeat: no-repeat;
     text-decoration: none;
-    border: 1px double black; /* Параметры границы */
+    border: none; /* Параметры границы */
     // background: #fc3; /* Цвет фона */
     // padding: 10px; /* Поля вокруг текста */
     .ngx-gallery-thumbnail-video::after {
@@ -55,7 +55,7 @@
       height: 100%;
     }
     &.ngx-gallery-active {
-      border: 1px double #cc4548;
+      border: none;
     }
   }
 }
